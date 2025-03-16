@@ -6,6 +6,8 @@ To Develop a convolutional deep neural network for image classification and to v
 
 ## Problem Statement and Dataset
 
+Include the Problem Statement and Dataset.
+
 ## Neural Network Model
 
 Include the neural network model diagram.
@@ -24,8 +26,6 @@ Write your own steps
 
 ### Name:
 ### Register Number:
-Include your code here
-
 ```python
 class CNNClassifier(nn.Module):
     def __init__(self):
@@ -67,7 +67,7 @@ def train_model(model, train_loader, num_epochs=3):
 ```
 
 ## OUTPUT
-### Training Loss
+### Training Loss per Epoch
 
 Include the Training Loss per epoch
 
@@ -78,7 +78,6 @@ Include confusion matrix here
 ### Classification Report
 
 Include Classification Report here
-
 
 
 ### New Sample Data Prediction
